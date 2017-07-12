@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Index</title>
+	
+	<script src="{{ url_for('static', filename='js/dist/jquery.js') }}"></script>
+	
+	<link rel="icon" href="{{ url_for('static', filename='img/logo-sin-fondo.png') }}">
+	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+	
+	<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+	
+	<link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }} " rel="stylesheet" media="screen">
+</head>
+<body>
+<div id="contenedor">
+<header>
+		<input type="button" name="crear" id="crear" value="Crear Nota" onclick="crear_nota();">
+
+</header>
+	<nav id="naveg">
+	<!-- <ul class="nav nav-pills nav-stacked">
+  		<li role="presentation" class="active"><a href="#">Home</a></li>
+  		<li role="presentation"><a href="#">Profile</a></li>
+  		<li role="presentation"><a href="#">Messages</a></li>
+	</ul> -->
+		<div id="msjc">
+			<div id="areaContenido"></div>
+		</div>
+	</nav>
+
+</div>	
+</body>
+</html>

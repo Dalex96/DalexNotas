@@ -1,0 +1,73 @@
+header{
+	background-color: #1A1919;
+	width: 1354px;
+	height: 60px;
+}
+#contenedor{
+	height: 860px;
+	width: 1355px;
+	background: ;
+}
+#naveg{
+	width: 210px;
+	height: 800px;
+	background-color: #1A1919;
+}
+#crear{
+	position: relative;
+	width: 80px;
+	height: 30px;
+	border-radius: 40px 40px 40px 40px;
+	background-color: grey;
+	border-style: none;
+	margin-left: 25px;
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	top: 50px;
+}
+#msjc{
+	position: relative;
+	overflow: scroll;
+	background-color: #0197D7;
+	height: 800px;
+	width: 1164px;
+	margin-bottom: 50%;
+	left: 200px;
+}
+.newT{
+	overflow: hidden;
+	position: relative;
+	width: 450px;
+	height: 200px;
+	border-radius: 0px 5px 5px 5px;
+	background-color: ;
+	float: left;
+	border-style: none;
+	margin-top: 50px;
+	margin-left: 8px;
+	font-size: 20px;
+	font-family: Arial;
+}
+#bt{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	background-color: #0F6FA6;
+	border-style: none;
+	font-size: 15px;
+	left: 108px;
+	margin-top: 20px;
+	float: left;
+}
+#bt2{
+	position: relative;
+	width: 50px;
+	height: 30px;
+	background-color: #0F6FA6;
+	border-style: none;
+	font-size: 15px;
+	margin-top: 20px;
+	left: 110px;
+	float: left;
+}
